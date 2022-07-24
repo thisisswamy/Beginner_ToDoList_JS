@@ -1,0 +1,80 @@
+.container-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main-wrap{
+        width: 700px;
+        // background-color:#ccc;
+
+        .container-1{
+            margin:1rem 0;
+
+            .heading{
+                border: 1.2px solid #FFF;
+                background-color:black;
+                color: white;
+                border-radius: 8px;
+                h1{
+                    font-weight: 700;
+                    padding-left: 30%;
+                    justify-content: center;
+                }
+            }
+            .addTextField{
+                margin: 5em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1em;
+                
+                button{
+                    padding:7px 50px;
+                }
+                button:hover{
+                    background-color:darkblue;
+                }
+            }
+        }
+        .list-wrap{
+            margin: 3rem;
+            background-color: darkslategray;
+            padding:10px;
+            // height: 600px;
+            overflow-y: auto;
+            border-radius: 8px;
+            p{
+                color: #FFF;
+            }
+
+            .todoList{
+                margin: 0;
+                padding:0;
+                .listItem{
+                    background-color: #FFF;
+                    padding: 5px;
+                    border-radius: 8px;
+                    margin-bottom: 1em;
+                    box-shadow: 0 0 10px 0 rgb(0 0 0/25%);
+
+                    button{
+                        padding: 1px 8px;
+                        font-weight: 700;
+                        float: right;
+                        border-radius: 50%;
+                    }
+                    .line{
+                        // height: 30px;
+                    }
+                    .content{
+                        word-break: break-all;
+                        padding: 5px;
+                    }
+                    
+                }
+                
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,66 @@
+.container-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-wrap .main-wrap {
+  width: 700px;
+}
+.container-wrap .main-wrap .container-1 {
+  margin: 1rem 0;
+}
+.container-wrap .main-wrap .container-1 .heading {
+  border: 1.2px solid #FFF;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+.container-wrap .main-wrap .container-1 .heading h1 {
+  font-weight: 700;
+  padding-left: 30%;
+  justify-content: center;
+}
+.container-wrap .main-wrap .container-1 .addTextField {
+  margin: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.container-wrap .main-wrap .container-1 .addTextField button {
+  padding: 7px 50px;
+}
+.container-wrap .main-wrap .container-1 .addTextField button:hover {
+  background-color: darkblue;
+}
+.container-wrap .main-wrap .list-wrap {
+  margin: 3rem;
+  background-color: darkslategray;
+  padding: 10px;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+.container-wrap .main-wrap .list-wrap p {
+  color: #FFF;
+}
+.container-wrap .main-wrap .list-wrap .todoList {
+  margin: 0;
+  padding: 0;
+}
+.container-wrap .main-wrap .list-wrap .todoList .listItem {
+  background-color: #FFF;
+  padding: 5px;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+.container-wrap .main-wrap .list-wrap .todoList .listItem button {
+  padding: 1px 8px;
+  font-weight: 700;
+  float: right;
+  border-radius: 50%;
+}
+.container-wrap .main-wrap .list-wrap .todoList .listItem .content {
+  word-break: break-all;
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */
